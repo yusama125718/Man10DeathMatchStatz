@@ -1,0 +1,15 @@
+name: Man10DeathMatchStatz
+version: '${project.version}'
+main: yusama125718.man10deathmatchstatz.Man10DeathMatchStatz
+api-version: 1.19
+
+commands:
+  statz:
+    description: Man10DeathMatchStatz
+    usage: /statzでスタッツを確認
+
+permissions:
+  mdstatz.op:
+    default: op
+  mdstatz.p:
+    default: true
